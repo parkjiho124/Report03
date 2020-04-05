@@ -1,0 +1,16 @@
+# Report03package report03;
+
+public class class_Sale_1 {
+
+	public static void main(String[] args) {
+		int sale[] = new int[] {157,259,251,312};
+		
+		for(int i=0; i<4; i++)
+			System.out.printf("%d/4�б�: sale[%d]= %d%n", i+1,i,sale[i]);
+		                   //                            0+1,0,sale[0]
+		                   //                             1, 0,sake[0]
+		                   //  %�� �������� �� ���� �ڿ� ����
+		                   //   1/4�б�: sale[0] = sale[0]�� ���� ��������
+		                   //�����->  1/4�б�: sale[0] = 157
+	}
+}
